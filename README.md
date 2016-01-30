@@ -1,6 +1,6 @@
 # rooms-bot
 
-A simple Slack Bot example, using botkit. 
+A simple nodejs-based Slack Bot example, using botkit. 
 
 This 'Rooms Bot' will start a chat with the user to reserve a room. As you can see in bot.js, to keep things simple, this is a very hard-coded example for the moment.
 
