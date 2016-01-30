@@ -2,7 +2,7 @@
 
 A simple Slack Bot example, using botkit. 
 
-This 'Rooms Bot' will start a chat with the user to reserve a room. As you can see in bot.js, this is a very hard-coded example for the moment.
+This 'Rooms Bot' will start a chat with the user to reserve a room. As you can see in bot.js, to keep things simple, this is a very hard-coded example for the moment.
 
 In the following steps we'll cover how to:
 ```
