@@ -8,9 +8,10 @@ In the following steps we'll cover how to:
 ```
 0. Adding the Bot to Slack
 1. Clone a copy of the Rooms Bot locally.
-2. Run and test the Rooms Bot locally.
-3. Invite the Bot to a Slack Channel.
-4. Testing the Bot
+2. Install the require node packages (botkit).
+3. Run and test the Rooms Bot locally.
+4. Invite the Bot to a Slack Channel.
+5. Testing the Bot
 ```
 
 Adding the Bot to Slack:
@@ -35,7 +36,7 @@ npm i --save botkit
 
 Edit run.sh. Enter your Slack token (be sure to remove the < and >)
 ```
-token=<your-channel-token-goes-here> node bot.js
+token=<your-bot-token-goes-here> node bot.js
 ```
 
 Run the Rooms Bot locally:
