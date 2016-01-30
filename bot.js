@@ -1,18 +1,13 @@
 var Botkit = require('botkit');
-var rooms_storage = require(__dirname+'/rooms_storage.js');
-
-rooms_storage_provider = rooms_storage(null);
 
 var controller = Botkit.slackbot({
   debug: false,
-  storage: rooms_storage_provider
 });
 
 // connect the bot to a stream of messages
 controller.spawn({
   token:process.env.token,
 }).startRTM()
-
 
 controller.hears('open','direct_message,direct_mention,mention',function(bot,message) {
   bot.startPrivateConversation(message, askBuilding);
@@ -77,8 +72,6 @@ askRoomConfirm = function(response, dm) {
 
 // give the bot something to listen for.
 controller.hears('help','direct_message,direct_mention,mention',function(bot,message) {
-
   bot.reply(message,'rooms help:\n@rooms open - list of rooms available');
-
 });
 
