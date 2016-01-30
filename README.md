@@ -46,7 +46,7 @@ sh run.sh
 
 Once the bot is started, you can invite the bot to a Slack Channel
 ```
-1. Go to the channel
+1. Go to a channel
 2. Type the following: 
   /invite @rooms
 ```
