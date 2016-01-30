@@ -17,10 +17,11 @@ In the following steps we'll cover how to:
 Adding the Bot to Slack:
 ```
 1. Go to the following url:
-  https://<your-slack-team-name>.slack.com/apps/new/A0F7YS25R-bots
-2. Enter the following username:
+  https://<your-slack-team-name>.slack.com/apps/build/custom-integration
+2. Click to add a bot.
+3. Enter the following username:
   rooms
-3. Note down the token for the bot.
+4. Note down the token for the bot.
 ```
 
 Clone the command server:
